@@ -1,0 +1,17 @@
+{
+  "name": "SerialOTA",
+  "keywords": "serial, esp8266, esp32",
+  "description": "Serial over the air with telnet.",
+  "homepage": "https://github.com/filippofinke/SerialOTA",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/filippofinke/SerialOTA"
+  },
+  "version": "1.0.0",
+  "authors": {
+    "name": "Filippo Finke",
+    "url": "https://filippofinke.ch"
+  },
+  "frameworks": "arduino",
+  "platforms": "espressif8266, espressif32"
+}
