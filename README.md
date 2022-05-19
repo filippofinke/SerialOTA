@@ -2,6 +2,14 @@
 
 > Serial over the air with telnet.
 
+<details>
+  <summary>Demo</summary>
+  <br>
+  <p align="center">
+    <img src="https://user-images.githubusercontent.com/37296364/169398835-8e3940b4-e59c-45b1-b4b8-66ba2c57b03e.gif">
+  </p>
+</details>
+
 ## Author
 
 👤 **Filippo Finke**
