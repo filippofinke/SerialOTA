@@ -7,13 +7,11 @@ bool SerialOTA::_connected = false;
 
 void SerialOTA::onConnect(String ip)
 {
-    Serial.println("CONNECTED");
     SerialOTA::_connected = true;
 }
 
 void SerialOTA::onDisconnect(String ip)
 {
-    Serial.println("DISCONNECTED");
     SerialOTA::_connected = false;
 }
 
@@ -40,7 +38,6 @@ void SerialOTA::print(const String &str)
 
 void SerialOTA::println(const String &str)
 {
-    Serial.println(SerialOTA::_connected);
     if (SerialOTA::_connected)
     {
         SerialOTA::telnet.println(str);
